@@ -15,8 +15,7 @@ function Navbar() {
       <h3>WEATHER APP</h3>
       <nav ref={navRef}>
         <Link to="/weather">Check Weather</Link>
-        <Link to="/about">About</Link>
-        <Link to="/login">Login</Link>
+        
         <button
           className="nav-btn nav-close-btn"
           onClick={showNavbar}>
